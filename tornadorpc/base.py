@@ -26,6 +26,7 @@ import tornado.web
 import tornado.ioloop
 import tornado.httpserver
 import types
+import logging
 import traceback
 from tornadorpc.utils import getcallargs
 
